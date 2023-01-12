@@ -1,0 +1,13 @@
+{
+  "name": "sprockets2jsbundling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rhiroe <ride.poke@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.16.17"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets"
+  }
+}
