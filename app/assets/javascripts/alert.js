@@ -1,0 +1,1 @@
+const alertFunc = () => alert();
